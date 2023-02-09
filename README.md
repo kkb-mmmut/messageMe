@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+ # messageMe a social webapplication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployments
 
-## Available Scripts
+    # https://kkb-mmmut.github.io/messageMe/ 
 
-In the project directory, you can run:
+## Created Using
+    React Js
+    HTML/CSS/JSX
+    JS
+    React Hooks/Routing 
+    Using Authentication by JWT Token.
+    
+## messageMe
+  messageMe is social networking site which will basically have the features of
+     login, signup, post creation, and deletion, like, comment, chat etc. 
 
-### `yarn start`
+## Basic Features.
+    1-We can create the user by using signup page.
+    2-Fully working functionalty for liking post, comment on the post and able to see the users profile
+    3-Fully working settings to change the user profile section like change the name and password.
+    4-Amazing user interface and awsome public interface . 
+    5-Able to add friends and delete friends.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#  Fetching Posts
+    ## In this section, we followed the following steps:
+    
+        1 - We created a file in the utils folder for storing constants and URLs that
+        will be required when we will fetch the data.
+        
+        2 - Then we implemented the custom fetch function for fetching data
+        from the APIs. It has 2 parameters body and customConfig.
+        
+        3 - Here we used the try and catch method so that the app doesn’t crash
+        when an error is encountered.
+        
+        4 - We have used async-await syntax here with fetch.
+        
+        5 - An async function starts a request and returns a promise. When
+        the request completes, the promise is resolved with the
+        Response object. If the request fails, the promise is rejected.
+        
+        6 - The await keyword causes the JavaScript runtime to pause your
+        code on this line, not allowing further code to execute in the
+        meantime until the async function call has returned its result —
+        very useful if subsequent code relies on that result! Therefore,
+        the await keyword is used before the fetch function.
+        
+        7 - Since the body is an object and an object can’t be passed in fetch
+        function. So, if it is present it is first converted into a string and then
+        passed through the fetch function.
+        
+        8 - The response received is then converted into JSON format by using
+        json() method.
+        
+        9 - If it is a success then data in JSON format is returned otherwise an error
+        is returned.
+        
+        10 - For styling, we used CSS modules in which class names are scoped
+        locally for avoiding naming conflicts.
+        
+# Jwt Token: 
+  
+    JSON Web Token is a proposed Internet standard for creating
+    data with optional signature and/or optional paid encryption that keeps JSON
+    validating a certain number of claims. Tokens are signed using a private
+    secret or public/private key.
+    
+    ### The scenarios when we can use jwt token:
+    
+    ## Authorization: 
+    This is the most important scenario where jwt token is
+    used. It helps to persist the user and once the user is logged in, the jwt
+    request will include all the resources, accesses that are permitted to
+    the user.
+    
+    ## Information Exchange: 
+    Jwt tokens is a good way to exchange
+    information between two parties. It also helps us to check whether the
+    content tampered with during transmission or not.
+    The JWT access token is only valid for a finite period of time. Using an
+    expired JWT will cause operations to fail. This value is normally 1200 seconds
+    or 20 minutes.
+    
+    ## Jwt decode: 
+    This is a small browser library that helps to decode jwt token
+    which is encoded.
+    
+    ## Command to install: `npm install jwt-decode`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screenshots
+# Public Interface
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/public_interface.png)
 
-### `yarn test`
+# User Interface 
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/user_profile.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Login Page 
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/login_page.png)
 
-### `yarn build`
+# Signup Page 
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/signup_page.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Edit profile edit section
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/edit_profile_section.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# User Profile
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/user_settings.png)
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Overall Design 
