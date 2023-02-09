@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/messageMe/static/css/main.c4806286.chunk.css",
-    "main.js": "/messageMe/static/js/main.0e633315.chunk.js",
-    "main.js.map": "/messageMe/static/js/main.0e633315.chunk.js.map",
+    "main.js": "/messageMe/static/js/main.d3d7718c.chunk.js",
+    "main.js.map": "/messageMe/static/js/main.d3d7718c.chunk.js.map",
     "runtime-main.js": "/messageMe/static/js/runtime-main.30a14c5e.js",
     "runtime-main.js.map": "/messageMe/static/js/runtime-main.30a14c5e.js.map",
     "static/js/2.cdd34b50.chunk.js": "/messageMe/static/js/2.cdd34b50.chunk.js",
     "static/js/2.cdd34b50.chunk.js.map": "/messageMe/static/js/2.cdd34b50.chunk.js.map",
     "index.html": "/messageMe/index.html",
     "static/css/main.c4806286.chunk.css.map": "/messageMe/static/css/main.c4806286.chunk.css.map",
-    "static/js/2.cdd34b50.chunk.js.LICENSE.txt": "/messageMe/static/js/2.cdd34b50.chunk.js.LICENSE.txt"
+    "static/js/2.cdd34b50.chunk.js.LICENSE.txt": "/messageMe/static/js/2.cdd34b50.chunk.js.LICENSE.txt",
+    "static/media/logo.84998ea0.png": "/messageMe/static/media/logo.84998ea0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.30a14c5e.js",
     "static/js/2.cdd34b50.chunk.js",
     "static/css/main.c4806286.chunk.css",
-    "static/js/main.0e633315.chunk.js"
+    "static/js/main.d3d7718c.chunk.js"
   ]
 }
